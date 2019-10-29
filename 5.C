@@ -5,8 +5,7 @@ int total(int k){
             x=k&1;
             k>>=1;
             }
-     return x;
-}
+     return x;}
 int main(){
    static int i=0;
     int j=5;
